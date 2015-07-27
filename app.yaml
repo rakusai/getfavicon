@@ -1,17 +1,12 @@
-# アプリケーションのID
 application: gyfavicon
 
-# アプリケーションのバージョン
 version: 1
 
-# ランタイムの名称。現時点では「python」のみ
 runtime: python27
 threadsafe: true
 
-# アプリケーションが前提としているAPIのバージョン
 api_version: 1
 
-# URLと、その処理方法の定義
 handlers:
 - url: /.*
   script: main.app
